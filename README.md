@@ -168,3 +168,7 @@ response teams in making faster and more reliable decisions during cyclone event
   capturing long-range spatial dependencies in satellite imagery.
 * Extend the system to predict additional cyclone parameters such as track path,
   landfall location, and rainfall estimation.
+
+## Authors
+
+- [@Karthikkosuri](https://github.com/Karthikkosuri)
