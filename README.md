@@ -114,3 +114,11 @@ INSAT_SATELLITE_CYCLONE_DETECTION
 ├── requirements.txt                     # Text file specifying exact development dependencies and libraries
 └── README.md                            # Main markdown repository project documentation page
 ```
+
+## 📊 Evaluation Results
+
+| Model       | Validation MAE | Validation RMSE |
+| :---        | :---           | :---            |
+| CNN Model         | 0.0402         | 0.1621          |
+| Xception Model    | 0.0341         | 0.1514          |
+| MobileNetV2 Model | 0.0303 ✅      | 0.1465 ✅       |
