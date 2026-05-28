@@ -1,6 +1,6 @@
 # INSAT_SATELLITE_CYCLONE_DETECTION
 
-🌀 Project Description
+## 🌀 Project Description
 This project presents an automated deep learning system for estimating tropical cyclone intensity from infrared satellite images captured by the Indian National Satellite (INSAT) system. Rather than relying on time-consuming manual interpretation of satellite data, this approach directly predicts cyclone intensity as a continuous numerical value in knots — framing it as a regression problem to enable faster and more reliable forecasting.
 The preprocessed satellite images are passed through three deep learning architectures to predict cyclone intensity:
 
