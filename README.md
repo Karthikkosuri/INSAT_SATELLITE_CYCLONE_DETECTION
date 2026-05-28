@@ -64,7 +64,7 @@ convolutions, optimized for performance with minimal computational cost.
 | MobileNetV2 | 0.0303        | 0.1465 ✅       | Transfer learning |
 
 ## 
-<img src="https://github.com/Karthikkosuri/INSAT_SATELLITE_CYCLONE_DETECTION/blob/main/insat3d_for_reference_ds/CYCLONE_DATASET/101.jpeg?raw=true" alt="Project Diagram" width = "800"/>" alt="Project Diagram" width = "800"/>
+<img src="https://github.com/Karthikkosuri/INSAT_SATELLITE_CYCLONE_DETECTION/blob/main/insat3d_for_reference_ds/CYCLONE_DATASET/101.jpeg?raw=true" 
 
 ## 📂 Dataset
 
