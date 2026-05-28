@@ -122,3 +122,47 @@ INSAT_SATELLITE_CYCLONE_DETECTION
 | CNN Model         | 0.0402         | 0.1621          |
 | Xception Model    | 0.0341         | 0.1514          |
 | MobileNetV2 Model | 0.0303 ✅      | 0.1465 ✅       |
+
+
+## 🛠️ Tech Stack
+
+| Category            | Tools / Libraries                              |
+| :---                | :---                                           |
+| Language            | Python 3.x                                     |
+| Deep Learning       | TensorFlow, Keras                              |
+| Pretrained Models   | MobileNetV2, Xception (ImageNet weights)       |
+| Data Processing     | NumPy, Pandas, OpenCV                          |
+| Visualization       | Matplotlib                                     |
+| Development         | Jupyter Notebook                               |
+| Version Control     | Git, GitHub                                    |
+| Large File Storage  | Git LFS                                        |
+
+---
+
+## ✅ Conclusion
+
+This project successfully demonstrates the application of deep learning models —
+CNN, Xception, and MobileNetV2 — for automated cyclone intensity estimation from
+infrared INSAT satellite imagery. Among the three architectures evaluated,
+MobileNetV2 achieved the best performance with a validation MAE of 0.0303 and
+RMSE of 0.1465, proving that lightweight pretrained models can deliver high
+accuracy even on relatively small satellite datasets. The results confirm the
+potential of AI-driven systems to assist meteorological departments and disaster
+response teams in making faster and more reliable decisions during cyclone events.
+
+---
+
+## 🔮 Future Work
+
+* Expand the dataset with a larger and more diverse collection of INSAT infrared
+  satellite images to improve model generalization across varying cyclone intensities.
+* Integrate multimodal meteorological inputs such as wind speed, pressure, and
+  visible spectrum imagery alongside infrared data for richer feature extraction.
+* Explore fine-tuning of pretrained model base layers to further reduce prediction
+  error and improve performance on extreme intensity cyclones.
+* Develop a real-time web or mobile dashboard for live cyclone intensity prediction
+  using streaming INSAT satellite feeds.
+* Investigate transformer-based architectures such as Vision Transformers (ViT) for
+  capturing long-range spatial dependencies in satellite imagery.
+* Extend the system to predict additional cyclone parameters such as track path,
+  landfall location, and rainfall estimation.
