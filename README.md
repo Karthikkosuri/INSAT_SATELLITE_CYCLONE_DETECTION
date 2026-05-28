@@ -67,3 +67,50 @@ convolutions, optimized for performance with minimal computational cost.
 ## 📂 Dataset
 
 [Download the dataset used in this experiment from here !](https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021)
+
+## 🧠 Trained Models
+
+[Download the trained models generated in this project here !]()
+
+## 🚀 How to Use This Repository
+
+### 1. Clone the Repository
+To get a local copy of this project up and running on your desktop, open Git Bash or
+your terminal and run:
+
+```bash
+git clone https://github.com/Karthikkosuri/INSAT_SATELLITE_CYCLONE_DETECTION.git
+cd INSAT_SATELLITE_CYCLONE_DETECTION
+```
+
+Install the necessary dependencies from the requirements.txt file.
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the provided Jupyter notebooks to preprocess the data, train models, and make
+predictions.
+
+After downloading the repository:
+
+```bash
+INSAT_SATELLITE_CYCLONE_DETECTION
+├── .git                                 # Hidden Git tracking repository folder
+│
+├── models                               # Saved trained model files
+│   ├── CNN_model.keras                  # Trained custom CNN regression model
+│   ├── Xception_model.keras             # Trained Xception transfer learning model
+│   └── mobiV2_model.keras               # Trained MobileNetV2 transfer learning model (Best ✅)
+│
+├── Data                                 # Data management directory
+│   ├── images                           # Infrared INSAT satellite images
+│   └── labels.csv                       # CSV file with image paths and cyclone intensity values
+│
+├── CNN_model.ipynb                      # Notebook to build, train and evaluate the CNN model
+├── Xception_model.ipynb                 # Notebook to build, train and evaluate the Xception model
+├── MobileNetV2_model.ipynb              # Notebook to build, train and evaluate the MobileNetV2 model
+├── data_preprocessing.ipynb            # Notebook for image resizing, normalization and dataset splitting
+├── requirements.txt                     # Text file specifying exact development dependencies and libraries
+└── README.md                            # Main markdown repository project documentation page
+```
