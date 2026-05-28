@@ -65,7 +65,7 @@ convolutions, optimized for performance with minimal computational cost.
 
 ## 
 <img src="https://github.com/Karthikkosuri/INSAT_SATELLITE_CYCLONE_DETECTION/blob/main/insat3d_for_reference_ds/CYCLONE_DATASET/101.jpeg?raw=true" 
-
+alt="Project Diagram" width = "800"/>
 ## 📂 Dataset
 
 [Download the dataset used in this experiment from here !](https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021)
