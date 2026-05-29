@@ -70,9 +70,6 @@ alt="Project Diagram" width = "800"/>
 
 [Download the dataset used in this experiment from here !](https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021)
 
-## 🧠 Trained Models
-
-[Download the trained models generated in this project here !]()
 
 ## 🚀 How to Use This Repository
 
